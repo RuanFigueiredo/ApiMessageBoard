@@ -1,0 +1,24 @@
+{
+  "name": "apimessageboard",
+  "version": "1.0.0",
+  "description": "Api para criar mensagens na web.",
+  "main": "app.js",
+  "scripts": {
+    "start":"nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuanFigueiredo/ApiMessageBoard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RuanFigueiredo/ApiMessageBoard/issues"
+  },
+  "homepage": "https://github.com/RuanFigueiredo/ApiMessageBoard#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
