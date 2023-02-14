@@ -1,6 +1,8 @@
 const express = require('express')
 const router = express.Router()
-//const EmpresaController = require('../controllers/EmpresaController')
+const MensagemController = require('../controllers/MensagemController')
+
+router.get('/mensagem', MensagemController.listarMensagens)
 
 router.get('/', (req, res) => {
     res.send('Hello World!')
